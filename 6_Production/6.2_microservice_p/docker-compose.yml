@@ -1,0 +1,43 @@
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    hostname: rabbitmq
+    restart: unless-stopped
+    ports:
+       - 5672:5672
+       - 15672:15672
+  features:
+    build:
+      context: ./features
+    restart: unless-stopped
+    depends_on:
+      - rabbitmq
+  model:
+    build:
+      context: ./model
+    restart: unless-stopped
+    depends_on:
+      - rabbitmq
+      - features
+  metric:
+    build:
+      context: ./metric
+    restart: unless-stopped
+    depends_on:
+      - rabbitmq
+      - features
+      - model
+    volumes: 
+      - ./logs/:/usr/src/app/logs/
+  plot:
+    build:
+      context: ./plot
+    restart: unless-stopped
+    depends_on:
+      - rabbitmq
+      - features
+      - model
+      - metric
+    volumes: 
+      - ./logs/:/usr/src/app/logs/  

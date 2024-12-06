@@ -1,0 +1,39 @@
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    hostname: rabbitmq
+    restart: unless-stopped
+    ports:
+       - 5672:5672
+       - 15672:15672
+  features:
+    image: vasilevdma/final_project_features:latest
+    restart: unless-stopped
+    depends_on:
+      - rabbitmq
+  model:
+    image: vasilevdma/final_project_model:latest
+    restart: unless-stopped
+    depends_on:
+      - rabbitmq
+      - features
+  metric:
+    image: vasilevdma/final_project_metric:latest
+    restart: unless-stopped
+    depends_on:
+      - rabbitmq
+      - features
+      - model
+    volumes: 
+      - ./logs/:/usr/src/app/logs/
+  plot:
+    image: vasilevdma/final_project_plot:latest
+    restart: unless-stopped
+    depends_on:
+      - rabbitmq
+      - features
+      - model
+      - metric
+    volumes: 
+      - ./logs/:/usr/src/app/logs/  
