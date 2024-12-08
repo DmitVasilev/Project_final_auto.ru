@@ -84,7 +84,7 @@
 
 Для удобства в каждой папке data содержится файл links_for_data.md со ссылками на необходимые данные.
 
-7. Работа выполнена с использованием Python версии 3.8.10. Необходимые для воспроизводимости кода зависисмости приведены в файле requirements.txt: [requirements.txt](https://github.com/DmitVasilev/Project_final_auto_ru/blob/8dac52cc89221d558fc73aaab45162d2f15baa41/requirements.txt). 
+7. Работа выполнена с использованием **Python версии 3.8.10**. Необходимые для воспроизводимости кода зависисмости приведены в файле requirements.txt: [requirements.txt](https://github.com/DmitVasilev/Project_final_auto_ru/blob/8dac52cc89221d558fc73aaab45162d2f15baa41/requirements.txt). 
                         
 :arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru/tree/8dac52cc89221d558fc73aaab45162d2f15baa41#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)             
 
