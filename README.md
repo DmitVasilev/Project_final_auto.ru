@@ -4,12 +4,12 @@
 
 ##  <font color = #9ACD32> Содержание </font>
 
-[1. Введение](https://github.com/DmitVasilev/Project_final_auto_ru?tab=readme-ov-file#-1-%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-)   
-[2. Описание задачи](https://github.com/DmitVasilev/Project_final_auto_ru?tab=readme-ov-file#2-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8)   
-[3. Описание данных](https://github.com/DmitVasilev/Project_final_auto_ru?tab=readme-ov-file#3-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)   
-[4. Результат](https://github.com/DmitVasilev/Project_final_auto_ru?tab=readme-ov-file#4-%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82)                  
-[5. Выводы](https://github.com/DmitVasilev/Project_final_auto_ru?tab=readme-ov-file#5-%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)                                        
-[6. Контакты](https://github.com/DmitVasilev/Project_final_auto_ru?tab=readme-ov-file#6-%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B)
+[1. Введение](https://github.com/DmitVasilev/Project_final_auto_ru/blob/master/README.md#-1-%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-)   
+[2. Описание задачи](https://github.com/DmitVasilev/Project_final_auto_ru/blob/master/README.md#2-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8)   
+[3. Описание данных](https://github.com/DmitVasilev/Project_final_auto_ru/blob/master/README.md#3-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)   
+[4. Результат](https://github.com/DmitVasilev/Project_final_auto_ru/blob/master/README.md#4-%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82)                  
+[5. Выводы](https://github.com/DmitVasilev/Project_final_auto_ru/blob/master/README.md#5-%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)                                        
+[6. Контакты](https://github.com/DmitVasilev/Project_final_auto_ru/blob/master/README.md#6-%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B)
 
 ### <font color = #9ACD32> 1. Введение </font>
 
@@ -25,7 +25,7 @@
 Доступа к информации о фактической цене продажи автомобиля у нас нет, как и к истории автомобиля (в объявлении предлагается купить эту информацию за отдельную плату). 
 Попробуем реализовать похожий сервис для объявлений по продаже подержанных автомобилей на сайте auto.ru используя информацию из объявлений на сайте auto.ru.  
 
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru/blob/master/README.md#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
 
 
 ###  <font color = #9ACD32>2. Описание задачи</font>
@@ -41,38 +41,38 @@
 4. Построить несколько моделей машинного обучения, решающих задачу регрессии - прогноз цены подержанного автомобиля. Провести настройку гиперпараметров и выбрать лучшую модель.
 5. Подготовить модель к внедрению в продакшен. 
 
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru/blob/master/README.md#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)  
 
 ###  <font color = #9ACD32>3. Описание данных</font>
 
-В проекте используется собственный датасет, собранный на основе информации из объявлений о продаже подержанных автомобилей на сайте auto.ru. В нем содержатся данные объявлений о продажах более 35 тысяч автомобилей за 3 квартал 2024г. Итоговый датасет содержит 197 признаков. Описание признаков приведено в отдельном файле [features.md](https://github.com/DmitVasilev/Project_final_auto_ru/blob/542581c0cd286d9d32a2adacb2e70734a3a0550a/features.md).
+В проекте используется собственный датасет, собранный на основе информации из объявлений о продаже подержанных автомобилей на сайте auto.ru. В нем содержатся данные объявлений о продажах более 35 тысяч автомобилей за 3 квартал 2024г. Итоговый датасет содержит 197 признаков. Описание признаков приведено в отдельном файле [features.md](https://github.com/DmitVasilev/Project_final_auto_ru/blob/2167ac5525810bd2e3fc0df30e4dfa746fc19679/features.md).
               
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)                   
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru/blob/master/README.md#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)                 
 
 ###  <font color = #9ACD32>4. Результат</font>
 
 1. Сбор данных проводился с помощью модуля Selenium в два этапа:
-   + на первом этапе собирались ссылки на описание автомобиля из карточек объявлений. Реализация парсера приведена в ноутбуке : [1_Auto_link_parser.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/1_Auto_link_parser.ipynb);
-   + на втором этапе проводился сбор подробной информации по ссылкам полученным на первом этапе. Реализация парсера приведена в ноутбуке : [2_Auto_parser.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/2_Auto_parser.ipynb).     
+   + на первом этапе собирались ссылки на описание автомобиля из карточек объявлений. Реализация парсера приведена в ноутбуке : [1_Auto_link_parser.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/2167ac5525810bd2e3fc0df30e4dfa746fc19679/1_Auto_link_parser.ipynb);
+   + на втором этапе проводился сбор подробной информации по ссылкам полученным на первом этапе. Реализация парсера приведена в ноутбуке : [2_Auto_parser.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/2167ac5525810bd2e3fc0df30e4dfa746fc19679/2_Auto_parser.ipynb).     
 
-2. Формирование признаков, предобработка данных и сборка датасета приведена в ноутбуке [3_Construct_data.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/3_Construct_data.ipynb).
+2. Формирование признаков, предобработка данных и сборка датасета приведена в ноутбуке [3_Construct_data.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/2167ac5525810bd2e3fc0df30e4dfa746fc19679/3_Construct_data.ipynb).
 
-3. Разведывательный анализ данных приведен в ноутбуке [4_EDA.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/4_EDA.ipynb).                
+3. Разведывательный анализ данных приведен в ноутбуке [4_EDA.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/2167ac5525810bd2e3fc0df30e4dfa746fc19679/4_EDA.ipynb).                
 Для отображения интерактивных графиков можно воспользоваться nbviewer [4_EDA_nbviewer.ipynb](https://nbviewer.org/github/DmitVasilev/Project_final_auto_ru/blob/3668d283b13efeb8c64800cd55903ce774049f6d/4_EDA.ipynb) (Сервис nbviewer по видимому стал очень популярен и иногда превышает лимит запросов к API GitHub, выдавая ошибку. В этом случае можно подождать до начала следующего часа и попробовать снова)
 
-4. Удаление выбросов, кодирование признаков, построение базовой модели, выбор наиболее значимых признаков, реализация более сложных моделей, подбор гиперпараметров, выбор лучшей модели и формирование пайплайна приведены в ноутбуке [5_Modeling.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/5_Modeling.ipynb). Результаты экспериментов по подбору гиперпараметров моделей приведены в папке [optuna_exp](https://github.com/DmitVasilev/Project_final_auto_ru/tree/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/data/optuna_exp).
+4. Удаление выбросов, кодирование признаков, построение базовой модели, выбор наиболее значимых признаков, реализация более сложных моделей, подбор гиперпараметров, выбор лучшей модели и формирование пайплайна приведены в ноутбуке [5_Modeling.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/2167ac5525810bd2e3fc0df30e4dfa746fc19679/5_Modeling.ipynb). Результаты экспериментов по подбору гиперпараметров моделей приведены в папке [optuna_exp](https://github.com/DmitVasilev/Project_final_auto_ru/tree/2167ac5525810bd2e3fc0df30e4dfa746fc19679/data/optuna_exp).
 
-5. Подговка модели к продакшену приведена в папке [6_Production](https://github.com/DmitVasilev/Project_final_auto_ru/tree/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/6_Production). 
+5. Подговка модели к продакшену приведена в папке [6_Production](https://github.com/DmitVasilev/Project_final_auto_ru/tree/2167ac5525810bd2e3fc0df30e4dfa746fc19679/6_Production). 
 Подготовлено две реализации с использованием фреймворка Flask: 
    + через серверное и клиентское приложение;
    + через web страницу.
   
-  Результаты приведены в папке [6.1_flask](https://github.com/DmitVasilev/Project_final_auto_ru/tree/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/6_Production/6.1_flask). Инструкция по запуску приведена в файле [Instructions.md](https://github.com/DmitVasilev/Project_final_auto_ru/blob/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/6_Production/6.1_flask/Instructions.md).
+  Результаты приведены в папке [6.1_flask](https://github.com/DmitVasilev/Project_final_auto_ru/tree/2167ac5525810bd2e3fc0df30e4dfa746fc19679/6_Production/6.1_flask). Инструкция по запуску приведена в файле [Instructions.md](https://github.com/DmitVasilev/Project_final_auto_ru/blob/2167ac5525810bd2e3fc0df30e4dfa746fc19679/6_Production/6.1_flask/Instructions.md).
 
   Также реализована микросервисная архитектура с использованием контейнеризации Docker и взаимодейсмтвия через брокер очередей RabbitMQ.                     
-  Структура данных для сборки и запуска контейнеров приведена в папке [6.2_microservice_p](https://github.com/DmitVasilev/Project_final_auto_ru/tree/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/6_Production/6.2_microservice_p). Инструкция по запуску приведена в файле [Instructions.md](https://github.com/DmitVasilev/Project_final_auto_ru/blob/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/6_Production/6.2_microservice_p/Instructions.md).
+  Структура данных для сборки и запуска контейнеров приведена в папке [6.2_microservice_p](https://github.com/DmitVasilev/Project_final_auto_ru/tree/2167ac5525810bd2e3fc0df30e4dfa746fc19679/6_Production/6.2_microservice_p). Инструкция по запуску приведена в файле [Instructions.md](https://github.com/DmitVasilev/Project_final_auto_ru/blob/2167ac5525810bd2e3fc0df30e4dfa746fc19679/6_Production/6.2_microservice_p/Instructions.md).
 
-  Чтобы не собирать контейнеры можно воспользоваться альтернативным вариантом приведенным в папке  [6.3_for_test_docker](https://github.com/DmitVasilev/Project_final_auto_ru/tree/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/6_Production/6.3_for_test_docker).В ней приведен модифицированный файл docker compose? в котором команды сборки заменены на команды загрузки образов из репозитария Docker Hub. Инструкция по запуску приведена в файле [Instructions.md](https://github.com/DmitVasilev/Project_final_auto_ru/blob/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/6_Production/6.3_for_test_docker/Instructions.md).
+  Чтобы не собирать контейнеры можно воспользоваться альтернативным вариантом приведенным в папке  [6.3_for_test_docker](https://github.com/DmitVasilev/Project_final_auto_ru/tree/2167ac5525810bd2e3fc0df30e4dfa746fc19679/6_Production/6.3_for_test_docker).В ней приведен модифицированный файл docker compose? в котором команды сборки заменены на команды загрузки образов из репозитария Docker Hub. Инструкция по запуску приведена в файле [Instructions.md](https://github.com/DmitVasilev/Project_final_auto_ru/blob/2167ac5525810bd2e3fc0df30e4dfa746fc19679/6_Production/6.3_for_test_docker/Instructions.md).
 
 6. Файлы данных использованные в данной работе приведены в таблице:
 
@@ -85,9 +85,9 @@
 
 Для удобства в каждой папке data содержится файл links_for_data.md со ссылками на необходимые данные.
 
-7. Работа выполнена с использованием **Python версии 3.8.10**. Необходимые для воспроизводимости кода зависисмости приведены в файле requirements.txt: [requirements.txt](https://github.com/DmitVasilev/Project_final_auto_ru/blob/da56c446df799e8d38a7dd8a1782c4fbcfdc6605/requirements.txt). 
+7. Работа выполнена с использованием **Python версии 3.8.10**. Необходимые для воспроизводимости кода зависисмости приведены в файле requirements.txt: [requirements.txt](https://github.com/DmitVasilev/Project_final_auto_ru/blob/2167ac5525810bd2e3fc0df30e4dfa746fc19679/requirements.txt). 
                         
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)             
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru/blob/master/README.md#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)             
 
 
 ###  <font color = #9ACD32>5. Выводы</font>
@@ -99,10 +99,10 @@
   Опробованы более сложные модели (дерево решений, случайный лес, градиентный бустинг и градиентный бустинг с регуляризацией из библиотеки XGBoost). Проведена работа по подбору гиперпараметров для этих моделей. Опробован метод снижения переобучения моделей путем модификации функции ошибки. Идея метода заключается в использовании в качестве функции ошибки суммы среднего значения метрики на валидационных фолдах и модуля разности средних значений метрики на тренировочных и валидационных фолдах. Лучший результат показала модель градиентного бустинга с регуляризацией из библиотеки XGBoost - значение метрики МАРЕ на тестовой выборке составило 13.56 процента. 
   На основе данной модели сформирован пайплайн с предобработкой данных. Предложено несколько варианта внедрения модели в продакшен с использованием фрэймворка Flask, а также реализация микросервисной архитектуры с использованием контейнеризации Docker и взаимодейсмтвия через брокер очередей RabbitMQ. 
 
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru/blob/master/README.md#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
 
 
 ###  <font color = #9ACD32>6. Контакты</font>
 Для обратной связи можно воспользоваться почтой: vasilevdma@mail.ru
 
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru/blob/master/README.md#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
