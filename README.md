@@ -57,7 +57,7 @@
 
 2. Формирование признаков, предобработка данных и сборка датасета приведена в ноутбуке [3_Construct_data.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/8dac52cc89221d558fc73aaab45162d2f15baa41/3_Construct_data.ipynb).
 
-3. Разведывательный анализ данных приведен в ноутбуке [4_EDA.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/8dac52cc89221d558fc73aaab45162d2f15baa41/4_EDA.ipynb).                
+3. Разведывательный анализ данных приведен в ноутбуке [4_EDA.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/5c5099c369ab8779eb26790c7d4b48ce3732bfc7/4_EDA.ipynb).                
 Для отображения интерактивных графиков можно воспользоваться nbviewer [4_EDA_nbviewer.ipynb](https://nbviewer.org/github/DmitVasilev/Project_final_auto_ru/blob/3668d283b13efeb8c64800cd55903ce774049f6d/4_EDA.ipynb) (Сервис nbviewer по видимому стал очень популярен и иногда превышает лимит запросов к API GitHub, выдавая ошибку. В этом случае можно подождать до начала следующего часа и попробовать снова)
 
 4. Удаление выбросов, кодирование признаков, построение базовой модели, выбор наиболее значимых признаков, реализация более сложных моделей, подбор гиперпараметров, выбор лучшей модели и формирование пайплайна приведены в ноутбуке [5_Modeling.ipynb](https://github.com/DmitVasilev/Project_final_auto_ru/blob/8dac52cc89221d558fc73aaab45162d2f15baa41/5_Modeling.ipynb). Результаты экспериментов по подбору гиперпараметров моделей приведены в папке [optuna_exp](https://github.com/DmitVasilev/Project_final_auto_ru/tree/8dac52cc89221d558fc73aaab45162d2f15baa41/data/optuna_exp).
