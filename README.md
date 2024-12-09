@@ -25,7 +25,7 @@
 Доступа к информации о фактической цене продажи автомобиля у нас нет, как и к истории автомобиля (в объявлении предлагается купить эту информацию за отдельную плату). 
 Попробуем реализовать похожий сервис для объявлений по продаже подержанных автомобилей на сайте auto.ru используя информацию из объявлений на сайте auto.ru.  
 
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru/tree/8dac52cc89221d558fc73aaab45162d2f15baa41#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
 
 
 ###  <font color = #9ACD32>2. Описание задачи</font>
@@ -41,13 +41,13 @@
 4. Построить несколько моделей машинного обучения, решающих задачу регрессии - прогноз цены подержанного автомобиля. Провести настройку гиперпараметров и выбрать лучшую модель.
 5. Подготовить модель к внедрению в продакшен. 
 
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru/tree/8dac52cc89221d558fc73aaab45162d2f15baa41#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
 
 ###  <font color = #9ACD32>3. Описание данных</font>
 
 В проекте используется собственный датасет, собранный на основе информации из объявлений о продаже подержанных автомобилей на сайте auto.ru. В нем содержатся данные объявлений о продажах более 35 тысяч автомобилей за 3 квартал 2024г. Итоговый датасет содержит 197 признаков. Описание признаков приведено в отдельном файле [features.md](https://github.com/DmitVasilev/Project_final_auto_ru/blob/8dac52cc89221d558fc73aaab45162d2f15baa41/features.md).
               
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru/tree/8dac52cc89221d558fc73aaab45162d2f15baa41#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)                     
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)                   
 
 ###  <font color = #9ACD32>4. Результат</font>
 
@@ -87,7 +87,7 @@
 
 7. Работа выполнена с использованием **Python версии 3.8.10**. Необходимые для воспроизводимости кода зависисмости приведены в файле requirements.txt: [requirements.txt](https://github.com/DmitVasilev/Project_final_auto_ru/blob/8dac52cc89221d558fc73aaab45162d2f15baa41/requirements.txt). 
                         
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru/tree/8dac52cc89221d558fc73aaab45162d2f15baa41#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)             
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)             
 
 
 ###  <font color = #9ACD32>5. Выводы</font>
@@ -99,10 +99,10 @@
   Опробованы более сложные модели (дерево решений, случайный лес, градиентный бустинг и градиентный бустинг с регуляризацией из библиотеки XGBoost). Проведена работа по подбору гиперпараметров для этих моделей. Опробован метод снижения переобучения моделей путем модификации функции ошибки. Идея метода заключается в использовании в качестве функции ошибки суммы среднего значения метрики на валидационных фолдах и модуля разности средних значений метрики на тренировочных и валидационных фолдах. Лучший результат показала модель градиентного бустинга с регуляризацией из библиотеки XGBoost - значение метрики МАРЕ на тестовой выборке составило 13.56 процента. 
   На основе данной модели сформирован пайплайн с предобработкой данных. Предложено несколько варианта внедрения модели в продакшен с использованием фрэймворка Flask, а также реализация микросервисной архитектуры с использованием контейнеризации Docker и взаимодейсмтвия через брокер очередей RabbitMQ. 
 
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru/tree/8dac52cc89221d558fc73aaab45162d2f15baa41#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
 
 
 ###  <font color = #9ACD32>6. Контакты</font>
 Для обратной связи можно воспользоваться почтой: vasilevdma@mail.ru
 
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru/tree/8dac52cc89221d558fc73aaab45162d2f15baa41#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project_final_auto_ru#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-) 
